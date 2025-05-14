@@ -37,7 +37,7 @@ ylabel('x(t)');           % label the vertical axis
 title('Plot of x(t)');    % give the plot a title
 grid on;                  % turn on the background grid
 
-% 7) (Optional) enforce nice vertical drop at t=±4 by explicitly drawing
+% 7) enforce nice vertical drop at t=±4 by explicitly drawing
 hold on;
 plot([-4 -4], [0 1], 'k', 'LineWidth', 2);
 plot([ 4  4], [0 1], 'k', 'LineWidth', 2);
